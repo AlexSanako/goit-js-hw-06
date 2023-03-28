@@ -1,0 +1,15 @@
+.gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    list-style-type: none;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.gallery__image {
+    display: block;
+    max-width: 480px;
+    min-height: 320px;
+}
